@@ -1,0 +1,244 @@
+body {
+  margin: 0;
+  /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif; */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "Open Sans", sans-serif;
+}
+
+code {
+  /* font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace; */
+  font-family: "Open Sans", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+/* Home sytle page */
+
+.welcome-section {
+  padding: 25px 20px;
+  text-align: center;
+}
+
+.welcome-section h3 {
+  font-size: 25px;
+  font-weight: 500;
+  opacity: 0.8;
+}
+.welcome-section p {
+  font-size: 14px;
+  font-weight: 400;
+  opacity: 0.6;
+  line-height: 1.6;
+}
+
+.home-news-section {
+  padding: 15px 25px;
+  text-align: center;
+}
+
+.news-wrapper-col-row {
+  display: flex;
+  flex-direction: column;
+}
+
+.home-news-section > h3 {
+  color: #1e89d5;
+  text-align: center;
+}
+
+.latest-news-title-h3 {
+  color: #8cc63f;
+  font-size: 30px;
+  font-weight: bold;
+  margin-block: 100px 5px;
+}
+
+.view-all-btn {
+  padding: 15px 30px;
+  color: #1e89d5;
+  font-size: 15px;
+  font-weight: 600;
+  border: 2px solid #1e89d5;
+  background-color: white;
+  margin-bottom: 20px;
+  transition: all 0.3s ease-in-out;
+}
+.view-all-btn:hover {
+  color: white;
+  background-color: #1e89d5;
+}
+
+/* Pages Style */
+
+.Pages-title {
+  padding: 0 30px;
+  font-size: 22px;
+  font-weight: 400;
+  opacity: 0.75;
+  margin: 5px 0;
+}
+
+.style-title {
+  color: #6baa1a;
+  font-weight: bold;
+}
+
+.pages-container {
+  padding-bottom: 5px;
+}
+
+/* The Team Page */
+.contact-us-team-text {
+  color: #1e89d5;
+  padding-inline: 30px;
+  padding-block: 5px 250px;
+  opacity: 0.7;
+}
+
+.templatera {
+  opacity: 0.5;
+  margin: 5px;
+  margin-left: 30px;
+}
+
+/* Contact Us Page */
+
+.contact-us-page-title {
+  margin-block: 70px 30px;
+  padding-inline: 0;
+}
+
+.contact-us-page-desc {
+  margin-block: 15px 25px;
+  padding-inline: 0;
+  opacity: 0.6;
+}
+
+.contact-us-page-wrapper {
+  /* border: 2px solid tan; */
+  padding-inline: 30px;
+}
+/* MEDIA QUERY FOR DESTOP AND TABLET */
+
+/* DESKTOP VIEW */
+
+@media screen and (min-width: 997px) {
+  .welcome-section h3 {
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 1.26;
+    opacity: 0.8;
+  }
+
+  .welcome-section p {
+    font-size: 14.5px;
+    font-weight: 300;
+    width: 60%;
+    margin: 0 auto;
+  }
+
+  .home-news-section {
+    /* border: 2px solid purple; */
+    padding: 0 40px;
+  }
+
+  .home-news-section > h3 {
+    color: #1e89d5;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 400;
+    /* border: 2px solid red; */
+    margin-block: 25px;
+  }
+
+  .news-wrapper-col-row {
+    /* display: flex; */
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding: 0 35px;
+  }
+
+  /* news pages */
+  .news-post-area-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+  }
+
+  .news-page-sidebar {
+    width: 42%;
+  }
+
+
+  .latest-news-title-h3 {
+    margin-block: 0;
+    font-size: 34px;
+  }
+
+  .view-all-btn {
+    margin-top: 50px;
+  }
+
+  /* Page-data-wrapper style */
+
+  .page-data-wrapper {
+    display: flex;
+    padding: 5px 70px;
+    /* border: 2px solid red; */
+    margin-top: -10px;
+  }
+
+  .page-caro-wrap,
+  .page-data-wrap {
+    width: 50%;
+    /* border: 2px solid red; */
+    margin: 0 5px;
+  }
+  .Pages-title {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  .style-title {
+    font-weight: 800;
+  }
+
+  /* Contact Us Page Style */
+
+  .contact-us-page-title {
+    margin-left: 8px;
+    padding: 0;
+  }
+
+  .contact-us-page-desc {
+    margin-left: 8px;
+    /* color: red; */
+    font-weight: 300;
+  }
+  .contact-location-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    /* padding: 0 30px; */
+    /* border: 2px solid red; */
+  }
+
+  .contact2-wrapper-- {
+    width: 66%;
+    margin-right: 3px;
+    /* border: 2px solid rgb(0, 255, 72); */
+  }
+  .location-wrapper-- {
+    width: 34%;
+    /* border: 2px solid red; */
+  }
+
+  .contact-us-page-wrapper {
+    /* border: 2px solid tan; */
+    padding: 5px 80px;
+  }
+}

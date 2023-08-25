@@ -1,0 +1,76 @@
+.carousel-container {
+  width: 80%;
+  height: 220px;
+  display:  flex;
+  overflow: hidden;
+  margin: 0 auto;
+  position: relative;
+ margin-block: 20px;
+}
+ 
+.carousel-container img {
+  height: 100%;
+  width: 100%;
+  flex: 1 0 100%;
+  object-fit: cover;
+  transition: all 0.3s linear;
+  transform: translateX(-100%);
+
+}
+
+.carousel-icon {
+  padding: 5px 8px;
+  background-color: #8cc63f;
+  position: absolute;
+  color: rgba(255, 255, 255, 0.582);
+  font-size: 15px;
+  top: 50%;
+  cursor: pointer;
+}
+
+.carousel-prev {
+  left: 10px;
+}
+
+.carousel-next {
+  right: 10px;
+}
+
+.right-slider {
+  animation: slideinRight 0.3s;
+}
+.left-slider {
+  animation: slideinLeft 0.3s;
+}
+
+@keyframes slideinLeft {
+  from {
+    background-position: -100% 0;
+  }
+  to {
+    background-position: 0 0;
+  }
+}
+@keyframes slideinRight {
+  from {
+    background-position: 100% 0;
+  }
+  to {
+    background-position: 0 0;
+  }
+}
+
+
+/* MEDIA QUERY FOR DESTOP AND TABLET */
+
+/* DESKTOP VIEW */
+
+@media screen and (min-width: 997px) {
+
+  .carousel-container {
+  width: 90%;
+  height: 400px;
+   margin-block:  8px 20px;
+}
+
+}

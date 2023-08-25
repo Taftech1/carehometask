@@ -1,0 +1,61 @@
+.pricing-container {
+  padding-block: 0;
+  padding-inline: 30px;
+}
+
+.price-tier {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.pricing-amount {
+  color: #72ab28;
+  margin: 0 2px;
+  font-weight: bold;
+  opacity: 0.7;
+}
+
+.pricing-description {
+  line-height: 1.5;
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 0.65;
+  padding-bottom: 5px;
+}
+
+.pricing-wrappers-container {
+  padding-block: 20px 30px;
+}
+
+/* MEDIA QUERY FOR DESTOP AND TABLET */
+
+/* DESKTOP VIEW */
+
+@media screen and (min-width: 997px) {
+  .pricing-container {
+    width: 40%;
+    margin-left: 50px;
+  }
+
+  .price-tier {
+    font-size: 18px;
+    color: rgb(68, 68, 68);
+  }
+
+  .pricing-amount {
+    font-weight: 800;
+    color: rgb(140, 198, 63);
+  }
+
+  .pricing-description {
+    font-weight: 300;
+    opacity: 0.8;
+  }
+  .pricing-wrappers-container {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding-block: 50px;
+    padding-inline: 11% 4%;
+  }
+}

@@ -1,0 +1,116 @@
+.header-conatiner {
+  height: 55px;
+  display: flex;
+  background-color: white;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px;
+  position: sticky;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  /* border: 2px solid red; */
+  overflow: hidden;
+ 
+}
+.logo-wrapper {
+  width: 75px;
+  height: 65px;
+}
+
+.logo-wrapper > img {
+  width: 100%;
+  height: 100%;
+}
+
+.hamburger-wrapper {
+  height: 20px;
+}
+
+/* TOP HEADER STYLE */
+
+.top-header-container {
+  display: none;
+  width: 100%;
+  height: 42px;
+  padding: 2px 90px;
+  text-align: right;
+  box-sizing: border-box;
+  background-color: #409ada;
+  align-items: center;
+}
+
+a {
+  color: white;
+}
+
+.top-header-mail-container {
+  color: white;
+  margin-right: 10px;
+  font-weight: 600;
+}
+
+.top-header-mail-icon {
+  margin-right: 5px;
+}
+
+.top-header-social-icon {
+  display: inline-block;
+  padding: 5px 8px;
+  color: white;
+  background-color: #8cc63f;
+  margin-block: 10px;
+  /* border: 2px solid red; */
+  margin-inline: 0 5px;
+}
+
+.top-header-social-icon:hover {
+  color: #3e9fe4;
+  transition: color 0.3s ease-in-out;
+}
+
+.top-header-text-size {
+  color: white;
+  font-size: 16px;
+  font-weight: 300;
+  margin-left: 10px;
+}
+.top-header-text-reducer {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.top-header-text-reset {
+  font-size: 17px;
+  font-weight: 400;
+}
+.top-header-increaser {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+/* TABLET VIEV */
+
+/* DESTOP VIEW  */
+@media screen and (min-width: 997px) {
+  .header-conatiner {
+    height: 140px;
+    position: static;
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 105px;
+    align-items: center;
+    /* border: 2px solid brown; */
+  }
+
+  .logo-wrapper {
+    width: 135px;
+    height: 100px;
+  }
+
+  .top-header-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+}

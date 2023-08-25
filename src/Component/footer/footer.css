@@ -1,0 +1,78 @@
+footer {
+  width: 100%;
+  background-color: #1e89d5;
+  background-color: #3e9fe4;
+  box-sizing: border-box;
+  padding-block: 10px 100px;
+  padding-inline: 25px;
+}
+
+.footer-wrapper h2 {
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 40px;
+}
+
+.footer-list-container {
+  padding: 0;
+  list-style: none;
+  color: white;
+  margin-bottom: 15px;
+}
+
+.footer-list-container li {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.social-icon {
+  display: inline-block;
+  padding: 5px;
+  color: white;
+  background-color: #8cc63f;
+  margin-block: 5px 0;
+  margin-inline: 0 10px;
+  /* border: 2px solid red; */
+}
+
+.social-icon:hover{
+  color: #3e9fe4;
+  transition: color .3s ease-in-out;
+}
+/* MEDIA QUERY FOR DESTOP AND TABLET */
+
+/* DESKTOP VIEW */
+
+@media screen and (min-width: 997px) {
+  .main-footer {
+    height: 380px;
+    display: flex;
+    justify-content: flex-start;
+    padding-inline: 80px;
+    padding-block: 70px;
+    overflow: hidden;
+  }
+
+
+  .footer-wrapper h2 {
+  margin-top: 10px;
+}
+
+  .footer-wrapper {
+    width: 400px;
+    /* border: 2px solid yellow; */
+    margin: 0 10px;
+  }
+   
+  .footer-list-container{
+    /* border: 2px solid teal; */
+    margin: 5px 0;
+  }
+
+  .socia-icons-cl{
+    /* border:  2px solid red; */
+    margin-top: 25px;
+  }
+
+}
