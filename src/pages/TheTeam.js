@@ -1,7 +1,7 @@
 import React from "react";
 import Carousel from "../Component/carousel/Carousel";
 import PagesHero from "../Component/hero/PagesHero";
-import Pricing from "../Component/pricing/Pricing";
+// import Pricing from "../Component/pricing/Pricing";
 import Contact from "../Component/contact/Contact";
 import PageActicle from "../Component/pagesComponent/PageActicle";
 import { TheTeamData } from "../Component/assent/constant";

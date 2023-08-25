@@ -1,10 +1,10 @@
-import React, { useState, useEffect } from "react";
-import { NavLink, useLocation } from "react-router-dom";
+import React, { useState } from "react";
+import { NavLink } from "react-router-dom";
 import { FaFacebookF, FaChevronDown } from "react-icons/fa";
 import { RiLinkedinFill } from "react-icons/ri";
 
 export default function NavBar({ isMenuOpen }) {
-  const Location = useLocation();
+  // const Location = useLocation();
   const [isSubMenuOpen, setIssubMenuOpen] = useState(false);
 
   const handleSubMenu = () => {

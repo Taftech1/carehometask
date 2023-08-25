@@ -2,7 +2,7 @@ import React from "react";
 import Carousel from "../Component/carousel/Carousel";
 import PagesHero from "../Component/hero/PagesHero";
 import PricingContainer from "../Component/pricing/PricingContainer";
-import Pricing from "../Component/pricing/Pricing";
+// import Pricing from "../Component/pricing/Pricing";
 import Contact from "../Component/contact/Contact";
 import PageActicle from "../Component/pagesComponent/PageActicle";
 import { AboutData } from "../Component/assent/constant";

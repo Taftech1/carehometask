@@ -1,6 +1,6 @@
 import React from "react";
 import "./pricing.css";
-import {logo} from "../assent/constant"
+// import {logo} from "../assent/constant"
 
 function Pricing({ Price, Duration, Desc }) {
   return (

@@ -1,6 +1,5 @@
 import React from "react";
 import { ImLocation } from "react-icons/im";
-import { FaLocationDot } from "react-icons/fa";
 
 function ContactLocation() {
   return (
